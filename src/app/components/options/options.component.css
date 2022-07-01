@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.main-container{
+background-color: #8FCBEF;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.card{
+height: 90%;
+width: 35%;
+background-color: #E64FC5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+padding: 0px 10px 0px 10px;
+}
+
+button{
+background: #F9E5F8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+width: 80%;
+height: 25%;
+border-color: transparent;
+margin-top: 40px;
+font-size: 28px;
+font-family: 'Press Start 2P', cursive;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 30px;
+-webkit-text-stroke: 1px #000000;
+cursor: pointer;
+}
+button:hover{
+    background-color:#F3F72D;
+}
+.btn-image{
+padding:20px 20px 20px 0px;
+height:180px;
+}
+
+.btn-lol{
+    color: #4D5BA8;
+}
+
+.btn-dota2{
+    color:#C72323;
+}
+
+h1,
+h2{
+    font-family: 'Pridi', serif;
+    color: white;
+    padding: 0 30px 0px 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.fa-chevron-left{
+    font-size:40px;
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    right: 64%;
+    cursor: pointer;
+}
