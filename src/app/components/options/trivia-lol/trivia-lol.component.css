@@ -1,0 +1,76 @@
+.image-lol {
+    height:50px;
+}
+
+.container-fgure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Pridi', serif;
+    margin-bottom: 30px;
+}
+
+.container-qa {
+    font-family: 'Pridi', serif;
+    width: 90%;
+    background: #F9E5F8;
+    height: 90%;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 55px;
+    padding: 25px 30px;
+}
+
+.container-lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw.5;
+    height: 88vh;
+    padding: 30px 10px;
+}
+
+.questions-lol {
+    font-family: 'Pridi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #645E5E;
+}
+
+.answer-lol {
+    border: 2px solid #919191;
+    border-radius: 30px;
+    font-family: 'Pridi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+    color: #827D7D;
+    margin-bottom: 20px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.timer {
+    width: 100%;
+    background: #909090;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.container-answers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reloj {
+    font-size: 30px
+}

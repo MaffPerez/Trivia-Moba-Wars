@@ -1,9 +1,17 @@
 <!doctype html>
 <main class="main-container">
     <section class="card">
-        <h1>MOBA</h1>
-        <h2>WARS</h2>
-        <button (click)="play()">Play <i class="fas fa-play"></i></button>
+        <ng-container *ngIf="!existUser">
+            <h1>MOBA</h1>
+            <h2>WARS</h2>
+            <button (click)="play()">Play <i class="fas fa-play"></i></button>
+        </ng-container>
+
+
+        <ng-container *ngIf="existUser">
+            <app-options></app-options>
+        </ng-container>
     </section>
+
 
 </main>

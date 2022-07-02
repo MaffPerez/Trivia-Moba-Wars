@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./options.component.css']
 })
 export class OptionsComponent implements OnInit {
+  lol: boolean;
+  abejita = false;
 
   constructor(
     private router: Router
@@ -19,12 +21,14 @@ export class OptionsComponent implements OnInit {
     this.router.navigate(['']);
   }
 
-  dota2(){
+  showDota2(){
     this.router.navigate(['quiz-dota2']);
   }
 
-  lol(){
-    this.router.navigate(['quiz-lol']);
+  showLol(){
+    this.lol = true
+    this.abejita = true
+    // this.router.navigate(['quiz-lol']);
   }
 }
 

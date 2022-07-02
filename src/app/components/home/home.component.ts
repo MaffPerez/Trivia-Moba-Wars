@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
+  existUser:boolean;
   constructor(
     private router: Router
   ) { }
@@ -16,7 +17,9 @@ export class HomeComponent implements OnInit {
   }
 
   play() {
-    this.router.navigate(['/home'])
+    this.existUser = true;
+
+    // this.router.navigate(['/home'])
   }
 
 

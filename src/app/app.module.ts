@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { OptionsComponent } from './components/options/options.component';
-import { TriviaLolComponent } from './components/trivia-lol/trivia-lol.component';
-import { TriviaDota2Component } from './components/trivia-dota2/trivia-dota2.component';
+import { TriviaLolComponent } from './components/options/trivia-lol/trivia-lol.component';
+import { TriviaDota2Component } from './components/options/trivia-dota2/trivia-dota2.component';
 
 @NgModule({
   declarations: [

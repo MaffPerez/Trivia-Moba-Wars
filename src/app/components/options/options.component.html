@@ -1,20 +1,27 @@
 <!doctype html>
 <main class="main-container">
     <section class="card">
-        <h1>¡Hola gamer!</h1>
-        <h2>Juega y descubre que tanto conoces de Dota 2 o Lol</h2>
-
-    <button (click)="lol()" class="btn-lol">
-        <img class="btn-image" src="../assets/images/lol.svg">
-        LEAGUE OF LEGENDS
-    </button>
-
-    <button (click)="dota2()" class="btn-dota2" >
-        <img class="btn-image" src="../assets/images/dota2.svg">
-        DOTA 2
-    </button>
-    <i (click)="back()" class="fas fa-chevron-left"></i>
-
+        <ng-container *ngIf="!abejita">
+            <div class="container-categories">
+                <h1>¡Hola gamer!</h1>
+                <h2>Juega y descubre que tanto conoces de Dota 2 o Lol</h2>
+    
+                <button (click)="showLol()" class="btn-lol">
+                    <img class="btn-image" src="../assets/images/lol.svg">
+                    LEAGUE OF LEGENDS
+                </button>
+    
+                <button (click)="showDota2()" class="btn-dota2">
+                    <img class="btn-image" src="../assets/images/dota2.svg">
+                    DOTA 2
+                </button>
+            </div>
+        </ng-container>
+    
+            <ng-container *ngIf="lol">
+                <app-trivia-lol></app-trivia-lol>
+            </ng-container>
+            <i (click)="back()" class="fas fa-chevron-left"></i>
+        
     </section>
-
 </main>
